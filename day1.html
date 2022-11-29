@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles4.css">
+        <title> My Title </title>
+    </head>
+    <body>
+        <section>
+            <img src="images/arun.png" alt="Arun" id="arun">
+            <h1 id="text"> Day 1 </h1>
+            <img src="images/aruntrans.png" alt="Arun Transparent" id="aruntrans">
+        </section>
+        <div class="sec">
+            <div>
+                <h2> Morning/Afternoon </h2>
+                <p> We started this day both nervous and excited for the long journey ahead of us. Starting strong, we managed to immediately pace ourselves correctly, not faltering when challenged with multiple flights of stairs. Following the path on our maps, we navigated around a cemetery and then across a beautiful path with a high view over Hong Kong’s public housing buildings. </p>
+                <p> Enthusiastically marching on, we often stopped for short moments to take photos of spiders and other interesting sights. We are now around 20 minutes into the hike and going with ease when, to our surprise, we spotted a small snake in the bushes. A smart member of our group identified it as a rat snake, before it slithered of at an alarming pace. After this experience, our group was buzzing with the same amount of energy as the start of the hike. This was until our group got confused about where the next checkpoint was; we were a stairway above Lam Tin park and we were unsure if we were supposed to check in with a teacher there. The confusion cost us roughly 20 minutes before we left the park, exiting via a small path leading behind a wire fence. Feeling energised by the snacks we shared at the park, our group walked up a small hill to a picturesque village with pink-leaved trees, papaya trees and a small river with a majestic white heron standing in the midst of the weak current. Exiting the village area, the group was taken aback by the amazing wooded scenery. Streams, rock pools, roots, ferns, fungi and more were heavily photographed by us. </p>
+                <p> Continuing the journey at a mild pace, our dirt path connected to a road which we followed, stopping once to have one member take a photo of the rest of the group. The road was fairly quiet and so the group walked very fast. Disembarking the concrete trail, we entered another village. Our group was intrigued by the village lifestyle as we saw farmers vegetables growing. A perfect papaya tree was also the subject of conversation. </p>
+                    
+                <p> After the village, our group meandered through a trail betwixt crops and descended lightly to the endpoint of the hike where we waited for other groups whilst admiring and inspecting a young star fruit tree. </p>
+            </div>    
+            <div>
+                <h2> Night </h2>
+                <p> For the HKAYP certificate, groups must camp overnight. Due to government regulations in Hong Kong, we could not camp in campsites so we boarded a school-bus to our school campus where we stayed overnight on the roof. I would highly recommend camping as it bonded our group together. From the memories we made cooking pasta, to the late night conversations. Also, there were lots of marshmallows consumed that night. We took a well-deserved rest. </p>
+                <p> Waking up, we cleared our mess and packed up our tents and trangia. We boarded the same bus and were shuttled to our day 2 starting point! </p>
+            </div>
+        <div>
+            <a href="index.html"> Home </a>
+        </div>
+        <script>
+            let text = document.getElementById('text');
+            let aruntrans = document.getElementById('aruntrans');
+
+            window.addEventListener('scroll',function(){
+                let value = window.scrollY;
+                aruntrans.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 3.5 + 'px';
+                text.style.marginTop = value * 0.7 + 'px';
+            })
+        </script>
+    </body>
+</html>

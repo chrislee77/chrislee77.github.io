@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles4.css">
+    </head>
+    <body class="background">
+        <section>
+            <img src="images/arun.png" alt="Arun" id="arun">
+            <h1 id="text4"> Benefits of Hiking </h1>
+            <img src="images/aruntrans.png" alt="Arun Transparent" id="aruntrans">
+        </section>
+        <div class="sec">
+            <h2> Online Research </h2>
+            <div>
+                <h3> 1. Hiking keeps your mind more focused and sharper than many other forms of exercise</h3>
+                <p> - Research shows that hiking doesn't just feel good, but it also keeps your brain mentally healthy </p>
+                <p> - Although all exercise is good for you, hiking involves something many other exercises don't. Trails. </p> 
+                <p class="break"> - Simply, this means navigating in a world that isn't completely predictable with hidden obstacles along the way </p>
+                <p class="break"> - Examples could be: dirt, overhanging branches, hidden obstacles, trail markers, animals etc. </p>
+                <p> - All of these different obstacles you face keeps you on your toes and require micro/macro adjustments which is great for your brain</p>
+            </div>
+            <div>
+                <h3> 2. It helps you to keep calm and peaceful </h3>
+                <p> - Exercise in general can be great at releasing stress, but hiking in particular is especially good at this. </p>
+                <p> - Hiking can be set apart from other forms of exercise since it's done outdoors and in a natural setting </p>
+                <p> - Now, you may be thinking 'Aren't there other activities that are also done outdoors?' and you would be correct in thinking that </p>
+                <p class="break"> - Examples include: river rafting, backpacking etc. However, activities like this require much more planning compared to a simple hike </p>
+                <p> - Hiking can happen anywhere, and you still get to experience the beautiful surrounding nature </p>
+                <p> - Studies have found that walking in greenery often can help us heal from what is known as an "Attention Overload" </p>
+                <p class="break"> - The mental fatigue that comes from living in a world full of computers is a constant distraction </p>
+                <p> - Being in nature is also very calming too. In fact, studies have found that people who spend more time walking in nature are less anxious </p>
+                <p class="break"> - This can help protect from depression </p>
+            </div>
+            <div>
+                <h3> 3. It helps your relationships </h3>
+                <p> - There is lots of evidence showing that hiking improves relationships </p>
+                <p> - One reason that many people hike with others is for a feeling of closeness or safety </p>
+                <p> - Having a friend along the way can be a great way to connect with them free of distractions </p>
+                <p> - Further research shows that exposure to nature can help our relationships by making us more empathetic, helpful, and generous </p>
+                <p> - Even when hiking by yourself, it can help to reduce stress and make you feel good in general </p>
+                <p class="break"> - These effects can also help your relationships in that they reflect in your interactions once returning from the hike </p>
+            </div>
+            <div>
+                <h3> 4. Increases your creativity </h3>
+                <p> - There was a test where young adults spent three days hiking in the wilderness </p> 
+                <p class="break"> - The participants showed increased creative thinking and problem-solving after the experience </p>
+                <p> - Other studies have found connections between creative thinking and experiences in nature </p>
+                <p> - Some scholars believe that these benefits for creativity have to do with how natural settings allow our attention to soften </p>
+                <p> - It also allows our minds to wander in ways that can help us connect ideas that are swirling around in our minds </p>
+            </div>
+            <div>
+                <h3> 5. Helps create a positive relationship with nature </h3>
+                <p> - Although hiking is extremely beneficial for us, what you may not notice is that it can also be beneficial to the environment itself </p>
+                <p class="break"> - Think about it, if we have the stamina to cover long distances, we could all use cars less and reduce all of our carbon footprints </p>
+                <p> - Hiking can also benefit our planet in another way </p>
+                <p class="break"> - For example, developing a positive relationship with nature can cause us to care more about it </p>
+                <p class="break"> - As a result of this, we begin to care more about its fate and make us consider conservation methods </p>
+                <p> - I think this shows how hiking may be one of the most effective and meaningful forms of transport, being beneficial to both the environment and ourselves </p>
+            </div>
+            <div>
+                <h3> Personal Reflections </h3>
+                <p class="quotes"> "After the hike, I had a new found appreciation for nature and I felt much lighter than before" </p>
+                <p class="break"> - Christopher Lee </p>
+                <p class="quotes"> "I have gotten rid of burdens and stresses from my daily life following the hike" </p>
+                <p class="break"> - Yun Him Wong </p>
+                <p class="quotes"> "I was relieved to hear the final checkpoint was just around the corner when we were done, and the drive back home felt like a well-earned reward" </p>
+                <p class="break"> - Gustav Van Heerden </p>
+                <p class="quotes"> "As soon as we finished the hike, I felt a huge sense of pride as we had successfully completed a huge challenge" </p>
+                <p class="break"> - Ben Stacey </p>
+                <p class="quotes"> "I felt this feeling of accomplishment once I finished and, although I was exhausted, my mind seemed more focused and clear than ever" </p>
+                <p class="break"> - Arun Buffonge </p>
+            </div>
+        </div>
+        <div>
+            <a href="index.html"> Home </a>
+        </div>
+        <script>
+            let text4 = document.getElementById('text4');
+            let aruntrans = document.getElementById('aruntrans');
+
+            window.addEventListener('scroll',function(){
+                let value = window.scrollY;
+                aruntrans.style.top = value * 0 + 'px';
+                text4.style.marginRight = value * 3.5 + 'px';
+                text4.style.marginTop = value * 0.7 + 'px';
+            })
+        </script>
+    </body>
+</html> 

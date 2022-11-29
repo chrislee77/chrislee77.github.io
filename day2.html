@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles4.css">
+    </head>
+    <body class="background">
+        <section>
+            <img src="images/group.jpeg" alt="Group Photo" id="group">
+            <h1 id="text2"> Day 2 </h1>
+            <img src="images/grouptrans.png" alt="Group Photo Transparent" id="grouptrans">
+        </section>
+        <div class="sec">
+            <div>
+                <p> Our day 2 starting point was a small dirt road which was a branch of a concrete road. Our group followed this concrete road for a few minutes before entering a heavenly forest with magnificent rivers and beautiful, scenic trails. The hike was easy at this point but it all changed when we started going uphill…  </p>
+                <p> At first it was easy; we were energetic but then some members of our group began to slow down a little. Our pace decreased as our altitude increased. Nevertheless we made it to the top of the roughly 400m elevated mountaintop and ate lunch there. The views were unmatched. Our descent was calming as the nature was flawlessly marvellous and our group's chemistry caused thoughtful, meaningful conversation to blossom. We arrived at the bottom of the mountain and checked in with a teacher before beginning a walk slightly uphill and onto a twisting path. The biome changed to a bamboo forest - which was extremely beautiful - and the mood changed to a tired one as our group became tired of this lonesome, long, twisting path. The mood lightened slightly when we left the path and descended a twisting concrete path. We reached a three way intersection and headed down the long steep concrete path to the end, but we could not find a path from our location to the village behind the trees. So, after a long time ascending and descending hills and trudging through thick undergrowth, the group was forced to take a long path through Sai Kung, lengthening our journey and causing our frustration to significantly rise. When we reached the finish point, every single group member was jubilant. We departed Sai Kung separately, leaving each other but keeping our memories. </p>
+            </div>
+        </div>
+        <div>
+            <a href="index.html"> Home </a>
+        </div>
+        <script>
+            let text2 = document.getElementById('text2');
+            let grouptrans = document.getElementById('grouptrans');
+
+            window.addEventListener('scroll',function(){
+                let value = window.scrollY;
+                grouptrans.style.top = value * 0 + 'px';
+                text2.style.marginRight = value * 5.5 + 'px';
+                text2.style.marginTop = value * 0.7 + 'px';
+            })
+        </script>
+    </body>
+</html> 

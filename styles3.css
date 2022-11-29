@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+body, html {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.background {
+    background-image: url(images/background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+h1 {
+    height: 10vh;
+    padding-top: 30vh;
+    color: white;
+    text-align: center;
+    font-size: 6vh;
+    font-family: 'JetBrains Mono';
+    text-shadow: 2px 2px 8px #000000;
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+h2 {
+    height: 8vh;
+    color: white;
+    text-shadow: 1px 1px 6px #000000;
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'JetBrains Mono';
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.day1 {
+    height: 30px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'JetBrains Mono';
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+.day2 {
+    height: 30px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'JetBrains Mono';
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    animation: fadeIn linear 5.5s;
+    -webkit-animation: fadeIn linear 5.5s;
+    -moz-animation: fadeIn linear 5.5s;
+    -o-animation: fadeIn linear 5.5s;
+    -ms-animation: fadeIn linear 5.5s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+.photocollage {
+    height: 30px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'JetBrains Mono';
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    animation: fadeIn linear 6s;
+    -webkit-animation: fadeIn linear 6s;
+    -moz-animation: fadeIn linear 6s;
+    -o-animation: fadeIn linear 6s;
+    -ms-animation: fadeIn linear 6s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+.preparations {
+    height: 30px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'JetBrains Mono';
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    animation: fadeIn linear 6s;
+    -webkit-animation: fadeIn linear 6s;
+    -moz-animation: fadeIn linear 6s;
+    -o-animation: fadeIn linear 6s;
+    -ms-animation: fadeIn linear 6s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+.thebenefits {
+    height: 30px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 3vh;
+    font-family: 'JetBrains Mono';
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    animation: fadeIn linear 6s;
+    -webkit-animation: fadeIn linear 6s;
+    -moz-animation: fadeIn linear 6s;
+    -o-animation: fadeIn linear 6s;
+    -ms-animation: fadeIn linear 6s;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+a:hover {
+    color: grey;
+}

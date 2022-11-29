@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles4.css">
+    </head>
+    <body class="background">
+        <section>
+            <img src="images/group.jpeg" alt="Group Photo" id="group">
+            <h1 id="text3"> Preparations </h1>
+            <img src="images/grouptrans.png" alt="Group Photo Transparent" id="grouptrans">
+        </section>
+        <div class="sec">
+            <h2> Food Packed for 4 meals (Day 1 Lunch + Dinner, Day 2 Breakfast + Lunch) </h2>
+            <ul>
+                <li>
+                    <div>
+                        <h3> General Snacks: </h3>
+                        <p> - Beef Jerky and Sausages made by local butcher </p>
+                        <p> - M&S Popcorn and Chocolate Chip Cookies </p>
+                    </div>
+                    <div>
+                        <h3> Day 1 Lunch: </h3>
+                        <p> - Sandwiches x5 </p>
+                    </div>
+                    <div>
+                        <h3> Day 1 Dinner: </h3>
+                        <p> - Pasta x2 </p>
+                        <p> - Tomato Sauce Cans x2 </p>
+                        <p> - Milo (hot chocolate) packets x5 </p>
+                        <p> - x1 small pack of Marshmallows </p>
+                        <p> - Hot Dogs (Buns and Weiners) x10  </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3> Day 2 Breakfast: </h3>
+                        <p> - Granola Bars </p>
+                        <p> - Bagels and Cream Cheese x5 </p>
+                    </div>
+                    <div>
+                        <h3> Day 2 Lunch: </h3>
+                        <p> - Sandwiches </p>
+                        <p> - Granola Bars </p>
+                    </div>
+                </li>
+            </ul>
+            <h2> Packing List </h2>
+            <div>
+                <p> A well-packed hiking bag and what's been packed plays a crucial role. Besides, it's fun to spend some time packing and planning! </p>
+                <p> The Number One rule to packing is to make sure you have a comfortable bag with at least 2 litres of space. The items you'll be using for the least amount of time must be packed near the bottom of your bag where they're out of the way, while things of greater importance stay near the top of the bag where they're easy to get to.
+                </p>
+                <h3> For our two-day hike, we were required to have… </h3>
+                <p> - Two bottles of water holding approximately 2 litres of water each, obviously being refilled for the second day </p>
+                <p> - A spare set of clothes for the second day of travelling </p>
+                <p class="break"> - Your clothes must be able to keep you from overheating and can't cause injuries such as a rash, so that means nylon-like material </p>
+                <p> - Food, obviously, and packaging to keep it safe </p>
+                <p> - An appropriate set of hiking boots that are able to keep your feet from getting injured </p>
+                <p> - Mosquito repellent </p>
+                <p> - Sunscreen </p>
+                <p> - Tents, mattresses, and blankets </p>
+                <p> - A map and compass (provided by the teachers) </p>
+                <p> - Optional items </p>
+                <p class="break"> - An example includes things such as electrolyte tablets which our group was thankful to have </p>
+            </div>
+            <div>
+                <h3> Takeaway from experience: </h3>
+                <p> Food should be packed, based on the number of calories it contains. It is a tiring and monotonous journey throughout, hence this is essential. </p>
+            </div>
+            <div>
+                <h3> Major Constraints/Improvements: </h3>
+                <p> - Bring food with the smallest possible volume and weight, along with a low mass. This can reduce burdens on the back and save storage </p>
+                <p class="break"> for water and other necessities </p>
+                <p> - Should pack at least 4-5 litres, for the total span of a day, and refill the morning of the next day before hiking again. Most </p>
+                <p class="break"> individuals suffered from dehydration, not long after embarking on the journey. </p>
+            </div>
+        </div>
+        <div>
+            <a href="index.html"> Home </a>
+        </div>
+        <script>
+            let text2 = document.getElementById('text3');
+            let grouptrans = document.getElementById('grouptrans');
+
+            window.addEventListener('scroll',function(){
+                let value = window.scrollY;
+                grouptrans.style.top = value * 0 + 'px';
+                text3.style.marginRight = value * 5.5 + 'px';
+                text3.style.marginTop = value * 0.7 + 'px';
+            })
+        </script>
+    </body>
+</html> 
